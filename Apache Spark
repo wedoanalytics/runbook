@@ -1,0 +1,17 @@
+Spark Core: Two APIs - 1. Unstructured: Manipulation of raw objects 2. Structured: Work with structured data like tables.
+  Unstructured APIs: RDD, Accumulators, Broadcast variables
+  Structured APIs: DataFrames, DataSets, Spark SQL 
+Spark Advances APIs: MLlib, GraphX, Spark R
+Spark Application (Apps): 1. Driver process (JVM: Spark Session, app code ), 2. set of Executor processes (Jobs).
+                          Driver key responsibilities: 1. Maintains the info about Spark App, 2. Responding to user prog,
+                                                       3. Analyze, distribute, schedule work across executors.
+                          Executor Key Resp: 1. Execute code 2. Reporting the state of the computation back to the driver node.
+Spark supports in two runtime modes: 1. Cluster 2. Local (Java/Scala: spark-shell, Python:pyspark) 
+Cluster Manager (Controls Physical machines and allocates resources to Spark applications): 1. Sparks Stand alone 2.YARN 3.Mesos
+Spark Supported Language APIs: Scala (Default), Java, Python, SQL, R
+Concepts applicable to Spark core abstracts: Patitions
+Spark organizes the comptation in two categories: 1. Transformations 2. Actions
+
+
+
+                                                    
